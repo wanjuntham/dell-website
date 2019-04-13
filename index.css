@@ -6,49 +6,93 @@ body{
   background-color: #0087c7;
   height: 75px;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
+  
 }
 
 #topnav-logo{
   height: 100%;
+  margin-left:30%;
+  margin-right: 25%;
 }
 
 .navbar-button{
   display:inline-block;
+  padding: 30px;
+  color: white;
+  cursor: pointer;
 }
 
 #product-name-row{
   font-size: 300%;
   margin-left: 17%;
+  font-weight: bold;
+  margin-top : 30px;
 }
 
 #product-name{
   margin:0%;
 }
 #product1 {
-  background-color: yellow;
   height: 680px;
   padding: 5px;
   margin-left: 20%;
   margin-right: 20%;
   width: 60%;
   display: flex;
+  justify-content: center;
 
 }
 
 .child1 {
-  border: 1px solid red;
-  width: 90%;
-  margin-top:5%;
-  /* margin: auto; */
+  width: 80%;
+  margin-top: 0%;
+  padding: 3%;
 }
 
+.child1-5{
+  width: 90%;
+  margin-top:5%;
+  background-image: url(C:/Users/Wan_jun_Tham/Documents/training/assets/xps-15-lt-2018.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spec-photo {
+display: inline-block;
+height: 200px;
+width: 150px;
+padding: 3%;
+border-style: outset;
+
+}
+
+.spec-detail-photo{
+  height: auto;
+  width: 120px;
+  margin-left: 10%;
+  
+}
+
+#spec-detail-nvidia{
+  width:120px;
+  height:auto;
+  margin-bottom: 18%;
+  margin-left: 10%;
+}
+
+.spec-detail{
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 #spec-bar {
-  background-color: yellow;
+  background-color: lightgray;
   height: 50px;
-  padding: 5px;
-  margin: 5px;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -57,43 +101,47 @@ body{
 }
 
 .child2 {
-  border: 1px solid red;
-  height: 50px;
+  height: 30%;
   width: 20%;
+  margin: 0 auto;
+  margin-right: 50px;
+  text-align: center;
+  padding: 15px;
+  color: #0087c7;
+  font-size:140%;
 }
 
+.child2-customize {
+  height: 30%;
+  width: 5%;
+  margin: 0 auto;
+  margin-right: 50px;
+  text-align: center;
+  padding: 15px;
+  color: #0087c7;
+  font-size:140%;
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: 0.5px solid white;
+}
 #parent3 {
-  background-color: yellow;
-  height: 100px;
+  background-color: black;
+  height: 30px;
   padding: 5px;
-  margin: 5px;
-  width: 50%;
-  position: relative;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
 }
 
 .child3 {
-  border: 1px solid red;
-  height: 50px;
-  width: 20%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%)
-}
-
-#parent4 {
-  background-color: yellow;
-  height: 100px;
-  padding: 5px;
-  margin: 5px;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  /* flex-direction: column; */
-  align-items: center;
-}
-
-.child4 {
-  border: 1px solid red;
-  height: 50px;
-  width: 20%;
+  margin:5px;
+  color:white;
+  height: 60%;
+  width: 15%;
+  display:inline-block;
+  text-align: center;
+  font-size: 110%;
+  cursor: pointer;
 }

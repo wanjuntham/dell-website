@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+nav {
+  height: 15vh;
+  width: 100%;
+
+  background-color: rgb(0, 135, 199);
+  padding-left: 50px;
+  padding-right: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+
+  box-sizing: border-box;
+  z-index: 9;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  color: white;
+  padding-left: 50px;
+}
+
+.spec-card {
+  height: 150px;
+  width: 30%;
+  border: solid 1px black;
+  margin: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0 0 10px grey;
+}
+
+h4 {
+  margin-left: 10vw;
+}
+
+.spec-card img {
+  width: 100px;
+}
+
+#content {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+}
+
+#left-section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#right-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+#right-section img {
+  width: 100%;
+}
+
+#container {
+  padding-top: 15vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+footer #summary-container {
+  background-color: rgb(196, 196, 124);
+  height: 7vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+footer #summary-container > div {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer #summary-container > div:hover {
+  background-color: rgb(134, 134, 86);
+}
+
+#total-price {
+  display: flex;
+}
+
+#total-price div {
+  margin-right: 10px;
+}
+
+footer #terms-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  height: 8vh;
+}
+
+footer #terms-container {
+  line-height: 8vh;
+}
+
+.hidden {
+  display: none;
+}
+
+#laptop-builder-img {
+  height: 70vh;
+  position: fixed;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.selection-row {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+}
+
+.selection-row > div {
+  width: 20vw;
+}
+
+.alternate-row {
+  justify-content: flex-end;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.radio-button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: solid 1px black;
+}
+
+.transparent {
+  opacity: 0.5;
+}
